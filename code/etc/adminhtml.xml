@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <stock_inventory translate="title" module="vti_stockinventory">
+                    <title>Stock Inventory Logs</title>
+                    <sort_order>1100</sort_order>
+                    <action>adminhtml/stock_inventory/list</action>
+                </stock_inventory>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <stock_inventory translate="title" module="vti_stockinventory">
+                                <title>Stock Inventory Log</title>
+                            </stock_inventory>
+                        </children>
+                    </catalog>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <stock_inventory translate="title" module="vti_stockinventory">
+                                        <title>Stock Inventory Log</title>
+                                    </stock_inventory>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

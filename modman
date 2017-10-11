@@ -1,0 +1,3 @@
+code     app/code/local/VTI/StockInventory/
+locale     app/locale/
+VTI_StockInventory.xml      app/etc/modules/VTI_StockInventory.xml
